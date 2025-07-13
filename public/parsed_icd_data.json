@@ -1,0 +1,1220 @@
+[
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6A0",
+    "ICD11_Name": "神経発達症群"
+  },
+  {
+    "ICD10_Code": "F70-F79",
+    "ICD10_Name": "精神遅滞",
+    "ICD11_Code": "6A00",
+    "ICD11_Name": "知的発達症"
+  },
+  {
+    "ICD10_Code": "F80.-",
+    "ICD10_Name": "会話及び言語の特異的発達障害",
+    "ICD11_Code": "6A01",
+    "ICD11_Name": "発達性発話又は言語症群"
+  },
+  {
+    "ICD10_Code": "F84.0, F84.5等",
+    "ICD10_Name": "広汎性発達障害（自閉症、アスペルガー症候群など）",
+    "ICD11_Code": "6A02",
+    "ICD11_Name": "自閉スペクトラム症"
+  },
+  {
+    "ICD10_Code": "F81.-",
+    "ICD10_Name": "学習技能の特異的発達障害",
+    "ICD11_Code": "6A03",
+    "ICD11_Name": "発達性学習症"
+  },
+  {
+    "ICD10_Code": "F82",
+    "ICD10_Name": "運動機能の特異的発達障害",
+    "ICD11_Code": "6A04",
+    "ICD11_Name": "発達性協調運動症"
+  },
+  {
+    "ICD10_Code": "F90.0",
+    "ICD10_Name": "多動性障害",
+    "ICD11_Code": "6A05",
+    "ICD11_Name": "注意欠如多動症"
+  },
+  {
+    "ICD10_Code": "F98.4",
+    "ICD10_Name": "常同運動障害",
+    "ICD11_Code": "6A06",
+    "ICD11_Name": "常同運動症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A0Y",
+    "ICD11_Name": "神経発達症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A0Z",
+    "ICD11_Name": "神経発達症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6A2",
+    "ICD11_Name": "統合失調症又は他の一次性精神症群"
+  },
+  {
+    "ICD10_Code": "F20.-",
+    "ICD10_Name": "統合失調症",
+    "ICD11_Code": "6A20",
+    "ICD11_Name": "統合失調症"
+  },
+  {
+    "ICD10_Code": "F25.-",
+    "ICD10_Name": "統合失調感情障害",
+    "ICD11_Code": "6A21",
+    "ICD11_Name": "統合失調感情症"
+  },
+  {
+    "ICD10_Code": "F21",
+    "ICD10_Name": "統合失調型障害",
+    "ICD11_Code": "6A22",
+    "ICD11_Name": "統合失調型症"
+  },
+  {
+    "ICD10_Code": "F23.-",
+    "ICD10_Name": "急性一過性精神病性障害",
+    "ICD11_Code": "6A23",
+    "ICD11_Name": "急性一過性精神症"
+  },
+  {
+    "ICD10_Code": "F22.-",
+    "ICD10_Name": "持続性妄想性障害",
+    "ICD11_Code": "6A24",
+    "ICD11_Name": "妄想症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A25",
+    "ICD11_Name": "一次性精神症における臨床症状"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A2Y",
+    "ICD11_Name": "一次性精神症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A2Z",
+    "ICD11_Name": "統合失調症又は他の一次性精神症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6A4",
+    "ICD11_Name": "カタトニア"
+  },
+  {
+    "ICD10_Code": "F06.1 (基礎疾患による)",
+    "ICD10_Name": "他の医学的状態によるカタトニア状態",
+    "ICD11_Code": "6A40",
+    "ICD11_Name": "他の精神の疾患に関連するカタトニア"
+  },
+  {
+    "ICD10_Code": "F1x.5 (物質による)",
+    "ICD10_Name": "精神作用物質使用による精神病性障害（カタトニアを伴うものなど）",
+    "ICD11_Code": "6A41",
+    "ICD11_Name": "物質又は医薬品誘発性カタトニア"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A4Z",
+    "ICD11_Name": "カタトニア、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6A6",
+    "ICD11_Name": "気分症群：双極症又は関連症群"
+  },
+  {
+    "ICD10_Code": "F31.-",
+    "ICD10_Name": "双極性感情障害",
+    "ICD11_Code": "6A60",
+    "ICD11_Name": "双極症1型"
+  },
+  {
+    "ICD10_Code": "F31.-",
+    "ICD10_Name": "双極性感情障害",
+    "ICD11_Code": "6A61",
+    "ICD11_Name": "双極症II型"
+  },
+  {
+    "ICD10_Code": "F34.0",
+    "ICD10_Name": "気分循環症",
+    "ICD11_Code": "6A62",
+    "ICD11_Name": "気分循環症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A6Y",
+    "ICD11_Name": "双極症又は関連症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A6Z",
+    "ICD11_Name": "双極症又は関連症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6A7",
+    "ICD11_Name": "気分症群：抑うつ症群"
+  },
+  {
+    "ICD10_Code": "F32.-",
+    "ICD10_Name": "うつ病エピソード",
+    "ICD11_Code": "6A70",
+    "ICD11_Name": "単一エピソードうつ病"
+  },
+  {
+    "ICD10_Code": "F33.-",
+    "ICD10_Name": "反復性うつ病性障害",
+    "ICD11_Code": "6A71",
+    "ICD11_Name": "反復性うつ病"
+  },
+  {
+    "ICD10_Code": "F34.1",
+    "ICD10_Name": "気分変調症",
+    "ICD11_Code": "6A72",
+    "ICD11_Name": "気分変調症"
+  },
+  {
+    "ICD10_Code": "F41.2",
+    "ICD10_Name": "混合性不安抑うつ障害",
+    "ICD11_Code": "6A73",
+    "ICD11_Name": "混合抑うつ不安症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A7Y",
+    "ICD11_Name": "抑うつ症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A7Z",
+    "ICD11_Name": "抑うつ症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6A8",
+    "ICD11_Name": "気分症群：その他"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A80",
+    "ICD11_Name": "気分症における気分エピソードの症状と経過"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A8Y",
+    "ICD11_Name": "気分症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6A8Z",
+    "ICD11_Name": "気分症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6B0",
+    "ICD11_Name": "不安又は恐怖関連症群"
+  },
+  {
+    "ICD10_Code": "F41.1",
+    "ICD10_Name": "全般性不安障害",
+    "ICD11_Code": "6B00",
+    "ICD11_Name": "全般不安症"
+  },
+  {
+    "ICD10_Code": "F41.0",
+    "ICD10_Name": "パニック障害＜恐慌性障害＞",
+    "ICD11_Code": "6B01",
+    "ICD11_Name": "パニック症"
+  },
+  {
+    "ICD10_Code": "F40.0",
+    "ICD10_Name": "広場恐怖症",
+    "ICD11_Code": "6B02",
+    "ICD11_Name": "広場恐怖症"
+  },
+  {
+    "ICD10_Code": "F40.2",
+    "ICD10_Name": "特異的（個別的）恐怖症",
+    "ICD11_Code": "6B03",
+    "ICD11_Name": "限局性恐怖症"
+  },
+  {
+    "ICD10_Code": "F40.1",
+    "ICD10_Name": "社会恐怖症",
+    "ICD11_Code": "6B04",
+    "ICD11_Name": "社交不安症"
+  },
+  {
+    "ICD10_Code": "F93.0",
+    "ICD10_Name": "小児期の分離不安障害",
+    "ICD11_Code": "6B05",
+    "ICD11_Name": "分離不安症"
+  },
+  {
+    "ICD10_Code": "F94.0",
+    "ICD10_Name": "選択性緘黙＜場面緘黙＞",
+    "ICD11_Code": "6B06",
+    "ICD11_Name": "場面緘黙"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B0Y",
+    "ICD11_Name": "不安又は恐怖関連症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B0Z",
+    "ICD11_Name": "不安又は恐怖関連症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6B2",
+    "ICD11_Name": "強迫症又は関連症群"
+  },
+  {
+    "ICD10_Code": "F42.-",
+    "ICD10_Name": "強迫性障害＜強迫神経症＞",
+    "ICD11_Code": "6B20",
+    "ICD11_Name": "強迫症"
+  },
+  {
+    "ICD10_Code": "F45.2 (関連)",
+    "ICD10_Name": "心気障害",
+    "ICD11_Code": "6B21",
+    "ICD11_Name": "身体醜形症"
+  },
+  {
+    "ICD10_Code": "F45.8 (関連)",
+    "ICD10_Name": "他の身体表現性障害（自己臭恐怖など）",
+    "ICD11_Code": "6B22",
+    "ICD11_Name": "自己臭関係付け症"
+  },
+  {
+    "ICD10_Code": "F45.2",
+    "ICD10_Name": "心気障害",
+    "ICD11_Code": "6B23",
+    "ICD11_Name": "心気症"
+  },
+  {
+    "ICD10_Code": "F42.3 (関連)",
+    "ICD10_Name": "強迫性障害（ためこみに関連）",
+    "ICD11_Code": "6B24",
+    "ICD11_Name": "ためこみ症"
+  },
+  {
+    "ICD10_Code": "F98.8 (抜毛症 F63.3)",
+    "ICD10_Name": "他の特定される小児期及び青年期に通常発症する行動及び情緒の障害（抜毛症はF63.3）",
+    "ICD11_Code": "6B25",
+    "ICD11_Name": "向身体性反復行動症群"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B2Y",
+    "ICD11_Name": "強迫症又は関連症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B2Z",
+    "ICD11_Name": "強迫症又は関連症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6B4",
+    "ICD11_Name": "ストレス特異的関連症群"
+  },
+  {
+    "ICD10_Code": "F43.1",
+    "ICD10_Name": "心的外傷後ストレス障害（ＰＴＳＤ）",
+    "ICD11_Code": "6B40",
+    "ICD11_Name": "心的外傷後ストレス症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B41",
+    "ICD11_Name": "複雑性心的外傷後ストレス症"
+  },
+  {
+    "ICD10_Code": "F43.2",
+    "ICD10_Name": "適応障害（遷延性悲嘆に関連）",
+    "ICD11_Code": "6B42",
+    "ICD11_Name": "遷延性悲嘆症"
+  },
+  {
+    "ICD10_Code": "F43.2",
+    "ICD10_Name": "適応障害",
+    "ICD11_Code": "6B43",
+    "ICD11_Name": "適応反応症"
+  },
+  {
+    "ICD10_Code": "F94.1",
+    "ICD10_Name": "小児期の反応性愛着障害",
+    "ICD11_Code": "6B44",
+    "ICD11_Name": "反応性アタッチメント症"
+  },
+  {
+    "ICD10_Code": "F94.2",
+    "ICD10_Name": "小児期の脱抑制性愛着障害",
+    "ICD11_Code": "6B45",
+    "ICD11_Name": "脱抑制性対人交流症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B4Y",
+    "ICD11_Name": "ストレス特異的関連症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B4Z",
+    "ICD11_Name": "ストレス特異的関連症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6B6",
+    "ICD11_Name": "解離症群"
+  },
+  {
+    "ICD10_Code": "F44.-",
+    "ICD10_Name": "解離性［転換性］障害",
+    "ICD11_Code": "6B60",
+    "ICD11_Name": "解離性神経学的症状症"
+  },
+  {
+    "ICD10_Code": "F44.0",
+    "ICD10_Name": "解離性健忘",
+    "ICD11_Code": "6B61",
+    "ICD11_Name": "解離性健忘"
+  },
+  {
+    "ICD10_Code": "F44.3",
+    "ICD10_Name": "トランス及び憑依障害",
+    "ICD11_Code": "6B62",
+    "ICD11_Name": "トランス症"
+  },
+  {
+    "ICD10_Code": "F44.3",
+    "ICD10_Name": "トランス及び憑依障害",
+    "ICD11_Code": "6B63",
+    "ICD11_Name": "憑依トランス症"
+  },
+  {
+    "ICD10_Code": "F44.81",
+    "ICD10_Name": "解離性同一性障害（多重人格障害）",
+    "ICD11_Code": "6B64",
+    "ICD11_Name": "解離性同一性症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B65",
+    "ICD11_Name": "部分的解離性同一性症"
+  },
+  {
+    "ICD10_Code": "F48.1",
+    "ICD10_Name": "離人・現実感喪失症候群",
+    "ICD11_Code": "6B66",
+    "ICD11_Name": "離人感・現実感喪失症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B6Y",
+    "ICD11_Name": "解離症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B6Z",
+    "ICD11_Name": "解離症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6B8",
+    "ICD11_Name": "食行動症又は摂食症群"
+  },
+  {
+    "ICD10_Code": "F50.0",
+    "ICD10_Name": "神経性無食欲症",
+    "ICD11_Code": "6B80",
+    "ICD11_Name": "神経性やせ症"
+  },
+  {
+    "ICD10_Code": "F50.2",
+    "ICD10_Name": "神経性大食症",
+    "ICD11_Code": "6B81",
+    "ICD11_Name": "神経性過食症"
+  },
+  {
+    "ICD10_Code": "F50.8",
+    "ICD10_Name": "他の摂食障害（むちゃ食い障害など）",
+    "ICD11_Code": "6B82",
+    "ICD11_Name": "むちゃ食い症"
+  },
+  {
+    "ICD10_Code": "F98.2",
+    "ICD10_Name": "乳幼児期及び小児期の他の摂食障害",
+    "ICD11_Code": "6B83",
+    "ICD11_Name": "回避・制限性食物摂取症"
+  },
+  {
+    "ICD10_Code": "F98.3",
+    "ICD10_Name": "小児期の異食症",
+    "ICD11_Code": "6B84",
+    "ICD11_Name": "異食症"
+  },
+  {
+    "ICD10_Code": "F98.21",
+    "ICD10_Name": "乳幼児期の反芻障害",
+    "ICD11_Code": "6B85",
+    "ICD11_Name": "反芻・吐き戻し症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B8Y",
+    "ICD11_Name": "食行動症又は摂食症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6B8Z",
+    "ICD11_Name": "食行動症又は摂食症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6C0",
+    "ICD11_Name": "排泄症群"
+  },
+  {
+    "ICD10_Code": "F98.0",
+    "ICD10_Name": "非器質性遺尿症",
+    "ICD11_Code": "6C00",
+    "ICD11_Name": "遺尿症"
+  },
+  {
+    "ICD10_Code": "F98.1",
+    "ICD10_Name": "非器質性遺糞症",
+    "ICD11_Code": "6C01",
+    "ICD11_Name": "遺糞症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C0Z",
+    "ICD11_Name": "排泄症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6C2",
+    "ICD11_Name": "身体的苦痛症又は身体的体験症群"
+  },
+  {
+    "ICD10_Code": "F45.0, F45.1",
+    "ICD10_Name": "身体化障害、鑑別不能型身体表現性障害",
+    "ICD11_Code": "6C20",
+    "ICD11_Name": "身体的苦痛症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C21",
+    "ICD11_Name": "身体完全性違和"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C2Y",
+    "ICD11_Name": "身体的苦痛症又は身体的体験症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C2Z",
+    "ICD11_Name": "身体的苦痛症又は身体的体験症、特定不能"
+  },
+  {
+    "ICD10_Code": "ICD10",
+    "ICD10_Name": null,
+    "ICD11_Code": "ICD11",
+    "ICD11_Name": null
+  },
+  {
+    "ICD10_Code": "コード (参考)",
+    "ICD10_Name": "基本分類名 (参考)",
+    "ICD11_Code": "コード",
+    "ICD11_Name": "基本分類名"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6C4",
+    "ICD11_Name": "物質使用症群"
+  },
+  {
+    "ICD10_Code": "F10.-",
+    "ICD10_Name": "アルコール使用による精神及び行動の障害",
+    "ICD11_Code": "6C40",
+    "ICD11_Name": "アルコール使用症"
+  },
+  {
+    "ICD10_Code": "F12.-",
+    "ICD10_Name": "大麻類使用による精神及び行動の障害",
+    "ICD11_Code": "6C41",
+    "ICD11_Name": "大麻使用症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C42",
+    "ICD11_Name": "合成カンナビノイド使用症"
+  },
+  {
+    "ICD10_Code": "F11.-",
+    "ICD10_Name": "アヘン類使用による精神及び行動の障害",
+    "ICD11_Code": "6C43",
+    "ICD11_Name": "オピオイド使用症"
+  },
+  {
+    "ICD10_Code": "F13.-",
+    "ICD10_Name": "鎮静薬又は睡眠薬使用による精神及び行動の障害",
+    "ICD11_Code": "6C44",
+    "ICD11_Name": "鎮静薬、睡眠薬又は抗不安薬使用症"
+  },
+  {
+    "ICD10_Code": "F14.-",
+    "ICD10_Name": "コカイン使用による精神及び行動の障害",
+    "ICD11_Code": "6C45",
+    "ICD11_Name": "コカイン使用症"
+  },
+  {
+    "ICD10_Code": "F15.-",
+    "ICD10_Name": "他の精神刺激薬（カフェインを含む）使用による精神及び行動の障害",
+    "ICD11_Code": "6C46",
+    "ICD11_Name": "精神刺激薬（アンフェタミン類、メタンフェタミン、メトカチノンを含む）使用症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C47",
+    "ICD11_Name": "合成カチノン使用症"
+  },
+  {
+    "ICD10_Code": "F15.- (カフェイン関連)",
+    "ICD10_Name": "他の精神刺激薬（カフェインを含む）使用による精神及び行動の障害",
+    "ICD11_Code": "6C48",
+    "ICD11_Name": "カフェイン使用症"
+  },
+  {
+    "ICD10_Code": "F16.-",
+    "ICD10_Name": "幻覚薬使用による精神及び行動の障害",
+    "ICD11_Code": "6C49",
+    "ICD11_Name": "幻覚薬使用症"
+  },
+  {
+    "ICD10_Code": "F17.-",
+    "ICD10_Name": "タバコ使用による精神及び行動の障害",
+    "ICD11_Code": "6C4A",
+    "ICD11_Name": "ニコチン使用症"
+  },
+  {
+    "ICD10_Code": "F18.-",
+    "ICD10_Name": "揮発性溶剤使用による精神及び行動の障害",
+    "ICD11_Code": "6C4B",
+    "ICD11_Name": "揮発性吸入剤使用症"
+  },
+  {
+    "ICD10_Code": "F15.- (MDMA関連)",
+    "ICD10_Name": "他の精神刺激薬使用による精神及び行動の障害（MDMA関連）",
+    "ICD11_Code": "6C4C",
+    "ICD11_Name": "MDMA又は関連薬物（MDAを含む）使用症"
+  },
+  {
+    "ICD10_Code": "F16.- (PCP), F19.- (ケタミン)",
+    "ICD10_Name": "幻覚薬使用による精神及び行動の障害（PCP）、多剤使用及び他の精神作用物質使用による精神及び行動の障害（ケタミン）",
+    "ICD11_Code": "6C4D",
+    "ICD11_Name": "解離性薬物（ケタミン、フェンシクリジン［PCP］を含む）使用症"
+  },
+  {
+    "ICD10_Code": "F19.-",
+    "ICD10_Name": "多剤使用及び他の精神作用物質使用による精神及び行動の障害",
+    "ICD11_Code": "6C4E",
+    "ICD11_Name": "他の特定される精神作用物質（医薬品を含む）使用症"
+  },
+  {
+    "ICD10_Code": "F19.-",
+    "ICD10_Name": "多剤使用及び他の精神作用物質使用による精神及び行動の障害",
+    "ICD11_Code": "6C4F",
+    "ICD11_Name": "複数の特定される精神作用物質（医薬品を含む）使用症"
+  },
+  {
+    "ICD10_Code": "F19.-",
+    "ICD10_Name": "多剤使用及び他の精神作用物質使用による精神及び行動の障害",
+    "ICD11_Code": "6C4G",
+    "ICD11_Name": "不明又は特定不能の精神作用物質使用症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C4H",
+    "ICD11_Name": "精神作用のない物質使用症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C4Y",
+    "ICD11_Name": "物質使用症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C4Z",
+    "ICD11_Name": "物質使用症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6C5",
+    "ICD11_Name": "嗜癖行動症群"
+  },
+  {
+    "ICD10_Code": "F63.0",
+    "ICD10_Name": "病的賭博",
+    "ICD11_Code": "6C50",
+    "ICD11_Name": "ギャンブル行動症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C51",
+    "ICD11_Name": "ゲーム行動症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C5Y",
+    "ICD11_Name": "嗜癖行動症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C5Z",
+    "ICD11_Name": "嗜癖行動症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6C7",
+    "ICD11_Name": "衝動制御症群"
+  },
+  {
+    "ICD10_Code": "F63.2",
+    "ICD10_Name": "病的放火＜放火癖＞",
+    "ICD11_Code": "6C70",
+    "ICD11_Name": "放火症"
+  },
+  {
+    "ICD10_Code": "F63.1",
+    "ICD10_Name": "病的窃盗＜窃盗癖＞",
+    "ICD11_Code": "6C71",
+    "ICD11_Name": "窃盗症"
+  },
+  {
+    "ICD10_Code": "F65.8 (性嗜好の障害)",
+    "ICD10_Name": "他の性嗜好の障害",
+    "ICD11_Code": "6C72",
+    "ICD11_Name": "強迫的性行動症"
+  },
+  {
+    "ICD10_Code": "F63.81",
+    "ICD10_Name": "間欠性爆発性障害",
+    "ICD11_Code": "6C73",
+    "ICD11_Name": "間欠爆発症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C7Y",
+    "ICD11_Name": "衝動制御症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C7Z",
+    "ICD11_Name": "衝動制御症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6C9",
+    "ICD11_Name": "秩序破壊的又は非社会的行動症群"
+  },
+  {
+    "ICD10_Code": "F91.3",
+    "ICD10_Name": "反抗挑戦性障害",
+    "ICD11_Code": "6C90",
+    "ICD11_Name": "反抗挑発症"
+  },
+  {
+    "ICD10_Code": "F91.- (行為障害)",
+    "ICD10_Name": "行為障害",
+    "ICD11_Code": "6C91",
+    "ICD11_Name": "素行・非社会的行動症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C9Y",
+    "ICD11_Name": "素行・非社会的行動症、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6C9Z",
+    "ICD11_Name": "秩序破壊的又は非社会的行動症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6D1",
+    "ICD11_Name": "パーソナリティ症及び関連特性群"
+  },
+  {
+    "ICD10_Code": "F60.-, F61",
+    "ICD10_Name": "成人のパーソナリティ及び行動の障害",
+    "ICD11_Code": "6D10",
+    "ICD11_Name": "パーソナリティ症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6D11",
+    "ICD11_Name": "顕著なパーソナリティ特性又はパターン"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6D3",
+    "ICD11_Name": "パラフィリア症群"
+  },
+  {
+    "ICD10_Code": "F65.2",
+    "ICD10_Name": "露出症",
+    "ICD11_Code": "6D30",
+    "ICD11_Name": "露出症"
+  },
+  {
+    "ICD10_Code": "F65.3",
+    "ICD10_Name": "窃視症",
+    "ICD11_Code": "6D31",
+    "ICD11_Name": "窃視症"
+  },
+  {
+    "ICD10_Code": "F65.4",
+    "ICD10_Name": "小児性愛",
+    "ICD11_Code": "6D32",
+    "ICD11_Name": "小児性愛症"
+  },
+  {
+    "ICD10_Code": "F65.5",
+    "ICD10_Name": "サディズム及びマゾヒズム（性的サディズム）",
+    "ICD11_Code": "6D33",
+    "ICD11_Name": "強制的性サディズム症"
+  },
+  {
+    "ICD10_Code": "F65.8",
+    "ICD10_Name": "他の性嗜好の障害（窃触症に関連）",
+    "ICD11_Code": "6D34",
+    "ICD11_Name": "窃触症"
+  },
+  {
+    "ICD10_Code": "F65.8",
+    "ICD10_Name": "他の性嗜好の障害",
+    "ICD11_Code": "6D35",
+    "ICD11_Name": "同意しない者を対象とする他のパラフィリア症"
+  },
+  {
+    "ICD10_Code": "F65.-",
+    "ICD10_Name": "性嗜好の障害",
+    "ICD11_Code": "6D36",
+    "ICD11_Name": "単独で行う、又は同意する者を対象とするパラフィリア症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6D3Z",
+    "ICD11_Name": "パラフィリア症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6D5",
+    "ICD11_Name": "作為症群"
+  },
+  {
+    "ICD10_Code": "F68.1",
+    "ICD10_Name": "虚偽性障害（自分への作為）",
+    "ICD11_Code": "6D50",
+    "ICD11_Name": "作為症、自らに負わせる"
+  },
+  {
+    "ICD10_Code": "F68.1 (他者への作為)",
+    "ICD10_Name": "虚偽性障害（他者への作為、代理ミュンヒハウゼン症候群）",
+    "ICD11_Code": "6D51",
+    "ICD11_Name": "作為症、他者に負わせる"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6D5Z",
+    "ICD11_Name": "作為症、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6D7",
+    "ICD11_Name": "神経認知障害群"
+  },
+  {
+    "ICD10_Code": "F05.-",
+    "ICD10_Name": "せん妄（器質性、症状性を含む精神障害）",
+    "ICD11_Code": "6D70",
+    "ICD11_Name": "せん妄"
+  },
+  {
+    "ICD10_Code": "F06.7",
+    "ICD10_Name": "軽度認知障害",
+    "ICD11_Code": "6D71",
+    "ICD11_Name": "軽度神経認知障害"
+  },
+  {
+    "ICD10_Code": "F04",
+    "ICD10_Name": "器質性健忘症候群（アルコールその他の精神作用物質によらないもの）",
+    "ICD11_Code": "6D72",
+    "ICD11_Name": "健忘症"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6D8",
+    "ICD11_Name": "認知症"
+  },
+  {
+    "ICD10_Code": "F00.-, G30.-",
+    "ICD10_Name": "アルツハイマー病の認知症",
+    "ICD11_Code": "6D80",
+    "ICD11_Name": "アルツハイマー病による認知症"
+  },
+  {
+    "ICD10_Code": "F01.-",
+    "ICD10_Name": "血管性認知症",
+    "ICD11_Code": "6D81",
+    "ICD11_Name": "脳血管疾患による認知症"
+  },
+  {
+    "ICD10_Code": "G31.83 (レビー小体型認知症 F02.8)",
+    "ICD10_Name": "レビー小体病の認知症",
+    "ICD11_Code": "6D82",
+    "ICD11_Name": "レヴィ小体病による認知症"
+  },
+  {
+    "ICD10_Code": "F02.0 (ピック病の認知症)",
+    "ICD10_Name": "ピック病の認知症",
+    "ICD11_Code": "6D83",
+    "ICD11_Name": "前頭側頭型認知症"
+  },
+  {
+    "ICD10_Code": "F02.8 (物質による認知症)",
+    "ICD10_Name": "他の特定された疾患の認知症（物質によるもの）",
+    "ICD11_Code": "6D84",
+    "ICD11_Name": "精神作用物質（医薬品を含む）による認知症"
+  },
+  {
+    "ICD10_Code": "F02.- (他の疾患による認知症)",
+    "ICD10_Name": "他の特定された疾患の認知症",
+    "ICD11_Code": "6D85",
+    "ICD11_Name": "他に分類される疾患による認知症"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6D86",
+    "ICD11_Name": "認知症にみられる行動又は心理的障害"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6D8Y",
+    "ICD11_Name": "認知症、他の特定される原因"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6D8Z",
+    "ICD11_Name": "認知症、原因は不明又は特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6E0",
+    "ICD11_Name": "神経認知障害群"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6E0Y",
+    "ICD11_Name": "神経認知障害、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6E0Z",
+    "ICD11_Name": "神経認知障害、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6E2",
+    "ICD11_Name": "妊娠、分娩又は産褥に関連する精神又は行動の疾患群"
+  },
+  {
+    "ICD10_Code": "O99.3 (妊娠・出産・産褥期の精神障害)",
+    "ICD10_Name": "妊娠、分娩及び産褥に関連する精神及び行動の障害",
+    "ICD11_Code": "6E20",
+    "ICD11_Name": "妊娠、出産又は産褥に関連する精神又は行動の疾患、精神症症状を伴わない"
+  },
+  {
+    "ICD10_Code": "O99.3 (妊娠・出産・産褥期の精神障害)",
+    "ICD10_Name": "妊娠、分娩及び産褥に関連する精神及び行動の障害",
+    "ICD11_Code": "6E21",
+    "ICD11_Name": "妊娠、出産又は産褥に関連する精神又は行動の疾患、精神症症状を伴う"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6E2Z",
+    "ICD11_Name": "妊娠、出産又は産褥に関連する精神又は行動の疾患、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6E4",
+    "ICD11_Name": null
+  },
+  {
+    "ICD10_Code": "F54",
+    "ICD10_Name": "他に分類される障害又は疾患に関連する心理的要因及び行動要因",
+    "ICD11_Code": "6E40",
+    "ICD11_Name": "他に分類される障害又は疾患に影響を及ぼす心理的又は行動上の要因"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6E6",
+    "ICD11_Name": "他に分類される障害又は疾患に関連する二次性精神又は行動の症候群"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6E60",
+    "ICD11_Name": "二次性神経発達症候群"
+  },
+  {
+    "ICD10_Code": "F06.0, F06.2 (器質性精神病様障害)",
+    "ICD10_Name": "器質性幻覚症、器質性妄想性［統合失調症様］障害",
+    "ICD11_Code": "6E61",
+    "ICD11_Name": "二次性精神症症候群"
+  },
+  {
+    "ICD10_Code": "F06.3 (器質性気分障害)",
+    "ICD10_Name": "器質性気分［感情］障害",
+    "ICD11_Code": "6E62",
+    "ICD11_Name": "二次性気分症候群"
+  },
+  {
+    "ICD10_Code": "F06.4 (器質性不安障害)",
+    "ICD10_Name": "器質性不安障害",
+    "ICD11_Code": "6E63",
+    "ICD11_Name": "二次性不安症候群"
+  },
+  {
+    "ICD10_Code": "F06.8 (器質性強迫性障害)",
+    "ICD10_Name": "他の特定された器質性精神障害（強迫性など）",
+    "ICD11_Code": "6E64",
+    "ICD11_Name": "二次性強迫又は関連症候群"
+  },
+  {
+    "ICD10_Code": "F06.5, F06.6 (器質性解離性障害)",
+    "ICD10_Name": "器質性解離性障害、器質性情緒不安定性［無力性］障害",
+    "ICD11_Code": "6E65",
+    "ICD11_Name": "二次性解離症候群"
+  },
+  {
+    "ICD10_Code": "F07.0 (器質性パーソナリティ障害)",
+    "ICD10_Name": "器質性パーソナリティ障害",
+    "ICD11_Code": "6E66",
+    "ICD11_Name": "二次性衝動制御症候群"
+  },
+  {
+    "ICD10_Code": "F04",
+    "ICD10_Name": "器質性健忘症候群（アルコールその他の精神作用物質によらないもの）",
+    "ICD11_Code": "6E67",
+    "ICD11_Name": "二次性神経認知症候群"
+  },
+  {
+    "ICD10_Code": "F07.0",
+    "ICD10_Name": "器質性パーソナリティ障害",
+    "ICD11_Code": "6E68",
+    "ICD11_Name": "二次性パーソナリティ変化"
+  },
+  {
+    "ICD10_Code": "F06.1",
+    "ICD10_Name": "器質性緊張病性状態",
+    "ICD11_Code": "6E69",
+    "ICD11_Name": "二次性カタトニア症候群"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6E6Y",
+    "ICD11_Name": "二次性の精神又は行動の症候群、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6E6Z",
+    "ICD11_Name": "二次性の精神又は行動の症候群、特定不能"
+  },
+  {
+    "ICD10_Code": null,
+    "ICD10_Name": null,
+    "ICD11_Code": "6E8",
+    "ICD11_Name": null
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6E8Y",
+    "ICD11_Name": "精神、行動又は神経発達の疾患、他の特定される"
+  },
+  {
+    "ICD10_Code": "-",
+    "ICD10_Name": "該当なし",
+    "ICD11_Code": "6E8Z",
+    "ICD11_Name": "精神、行動又は神経発達の疾患、特定不能"
+  },
+  {
+    "ICD10_Code": "その他（「第６章 精神、行動又は神経発達の疾患群」以外の章より）",
+    "ICD10_Name": null,
+    "ICD11_Code": null,
+    "ICD11_Name": null
+  },
+  {
+    "ICD10_Code": "F43.0",
+    "ICD10_Name": "急性ストレス反応",
+    "ICD11_Code": "QE84",
+    "ICD11_Name": "急性ストレス反応"
+  },
+  {
+    "ICD10_Code": "F51.0, G47.0",
+    "ICD10_Name": "非器質性不眠症, 不眠症",
+    "ICD11_Code": "7A0",
+    "ICD11_Name": "不眠障害群"
+  },
+  {
+    "ICD10_Code": "F51.1, G47.1",
+    "ICD10_Name": "非器質性過眠症, 過眠症",
+    "ICD11_Code": "7A2",
+    "ICD11_Name": "過眠障害群（ナルコレプシーなど）"
+  },
+  {
+    "ICD10_Code": "G47.3",
+    "ICD10_Name": "睡眠時無呼吸",
+    "ICD11_Code": "7A4",
+    "ICD11_Name": "睡眠関連呼吸障害群"
+  },
+  {
+    "ICD10_Code": "F51.2, G47.2",
+    "ICD10_Name": "睡眠・覚醒スケジュール障害",
+    "ICD11_Code": "7A6",
+    "ICD11_Name": "概日リズム睡眠覚醒障害群"
+  },
+  {
+    "ICD10_Code": "G25.81, G47.6",
+    "ICD10_Name": "むずむず脚症候群, 睡眠関連運動障害",
+    "ICD11_Code": "7A8",
+    "ICD11_Name": "睡眠関連運動障害群（レストレスレッグ症候群など）"
+  },
+  {
+    "ICD10_Code": "F51.3-F51.5, G47.5",
+    "ICD10_Name": "睡眠時遊行症, 夜驚症, 悪夢, 睡眠時随伴症",
+    "ICD11_Code": "7B0",
+    "ICD11_Name": "睡眠時随伴障害群（レム睡眠行動障害など）"
+  },
+  {
+    "ICD10_Code": "G20, G21",
+    "ICD10_Name": "パーキンソン病, 続発性パーキンソニズム",
+    "ICD11_Code": "8A00",
+    "ICD11_Name": "パーキンソニズム"
+  },
+  {
+    "ICD10_Code": "G24",
+    "ICD10_Name": "ジストニア",
+    "ICD11_Code": "8A02",
+    "ICD11_Name": "ジストニア性障害"
+  },
+  {
+    "ICD10_Code": "G40",
+    "ICD10_Name": "てんかん",
+    "ICD11_Code": "8A6",
+    "ICD11_Name": "てんかん又は発作"
+  },
+  {
+    "ICD10_Code": "G40.0-G40.2",
+    "ICD10_Name": "症候性てんかん",
+    "ICD11_Code": "8A60",
+    "ICD11_Name": "構造的又は代謝性病態又は疾患によるてんかん"
+  }
+]

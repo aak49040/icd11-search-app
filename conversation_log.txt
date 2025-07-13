@@ -1,0 +1,69 @@
+## ICD検索システム デプロイ作業ログ
+
+### 1. 目的
+ローカルで開発したICD検索システム（Next.js製）を、Vercelを利用してインターネット上に公開し、スマートフォンからQRコードでアクセスできるようにする。
+
+### 2. 発生した問題と解決策
+
+#### 問題1: ローカル開発サーバーが正常に起動しない
+- **現象**: `npm run dev` を実行すると、ターミナル上は「Ready」と表示されるが、`http://localhost:3000` にアクセスすると「接続が拒否されました」と表示される。
+- **原因**: Next.jsの高速化機能「Turbopack」とWindows環境の相性問題の可能性。
+- **解決策**: `package.json` を編集し、`scripts`内の`"dev": "next dev --turbopack"` から `--turbopack`フラグを削除。これにより、通常の開発サーバーが起動し、問題が解決した。
+
+#### 問題2: Vercelへのデプロイ時にビルドが失敗する
+- **現象**: `vercel` コマンドでデプロイを実行した際、ビルド工程で `Failed to compile.` というエラーが発生。
+- **原因**: TypeScriptの型チェックエラー。`src/app/api/search/route.ts` と `src/app/page.tsx` の2ファイルで、型が `any` になっている箇所が複数あったため。
+- **解決策**:
+    1.  `route.ts`内で、検索対象のデータ構造に合わせた `ICDItem` という型インターフェースを定義。`any` を `ICDItem` に置換。
+    2.  `page.tsx`内でも同様に `ICDItem` インターフェースを定義し、検索結果を保持するstate (`results`) の型を `any[]` から `ICDItem[]` に変更。また、`catch`ブロックのエラーオブジェクトの型も修正。
+    3.  修正後、再度 `vercel` を実行し、ビルドに成功。
+
+#### 問題3: 本番サイトをスマートフォンで表示した際、入力文字が白色で見えにくい
+- **現象**: スマートフォンのブラウザでサイトを開き、検索ボックスに文字を入力すると、背景色と文字色が近いため視認性が悪い。
+- **原因**: 入力フィールドのCSSに文字色が明示的に指定されていなかった。
+- **解決策**: `src/app/page.tsx` を編集し、検索ボックスの`<input>`タグの`className`に、文字色を濃いグレーにするTailwind CSSのクラス `text-gray-800` を追加。
+
+### 3. デプロイ手順の概要
+
+1.  **Vercel CLIのインストール**: `npm install -g vercel`
+2.  **Vercelへのログイン**: `vercel login` (Emailでの認証を選択)
+3.  **プレビュー環境へのデプロイ**: `vercel`
+4.  **本番環境へのデプロイ**: `vercel --prod`
+5.  修正反映のための再デプロイも `vercel --prod` で実施。
+
+### 4. 最終的な成果物
+- **本番サイトURL**: https://handmade-accessory-shop.vercel.app
+- 上記URLで、ICDコードの検索システムが正常に動作することを確認済み。
+
+### 5. ICD11データの更新手順
+
+ICD11の元データ（`icd_data.xlsx`）を修正し、Webサイトに反映させる手順は以下の通りです。
+
+1.  **`icd_data.xlsx` の修正**:
+    -   `C:\Users\cck59\psychiatry-handmade-accessory\icd_data.xlsx` をExcelなどの表計算ソフトで開きます。
+    -   必要なデータを修正・追加・削除し、ファイルを上書き保存します。完全に新しいファイルに置き換えても、一部を変更して上書きしても構いません。
+
+2.  **JSONファイルの再生成**:
+    -   `icd_data.xlsx` の内容をWebサイトが読み込む形式（`parsed_icd_data.json`）に変換します。
+    -   PowerShellで `C:\Users\cck59\psychiatry-handmade-accessory` ディレクトリに移動し、以下のコマンドを実行します。
+        ```bash
+        python parse_icd_data.py
+        ```
+        （もし `parse_icd_data.py` が見つからない、またはエラーが出る場合は、`convert_excel.py` など別のPythonスクリプトが変換用かもしれません。その際はご相談ください。）
+
+3.  **アプリケーションの再デプロイ**:
+    -   更新されたJSONファイルをWebサイトに反映させるため、Vercelに再デプロイします。
+    -   PowerShellで `C:\Users\cck59\psychiatry-handmade-accessory` ディレクトリにいることを確認し、以下のコマンドを実行します。
+        ```bash
+        vercel --prod
+        ```
+    -   Vercelが変更を検知し、自動的にビルドとデプロイを行い、最新のデータが反映されたWebサイトが公開されます。
+
+**注意点**:
+- `python parse_icd_data.py` を実行するには、PythonがPCにインストールされており、環境パスが設定されている必要があります。
+- `parse_icd_data.py` が依存するライブラリ（例: `pandas`, `openpyxl` など）がインストールされていない場合、エラーが発生することがあります。その際は `pip install <ライブラリ名>` でインストールしてください。
+
+### 6. プロジェクト名の変更
+- **旧プロジェクト名**: `handmade-accessory-shop`
+- **新プロジェクト名**: `psychiatry-handmade-accessory`
+- **変更理由**: プロジェクトの内容をより正確に反映するため。
