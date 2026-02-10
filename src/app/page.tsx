@@ -45,7 +45,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center py-10 px-4">
-      <h1 className="text-4xl font-extrabold text-gray-800 mb-8">ICDコード検索システム</h1>
+      <h1 className="text-4xl font-extrabold text-gray-800 mb-8">簡易版ICDコード検索システム</h1>
 
       <div className="w-full max-w-2xl bg-white p-8 rounded-lg shadow-lg mb-8">
         <div className="flex flex-col sm:flex-row gap-4 mb-4">
@@ -68,6 +68,10 @@ export default function Home() {
           >
             {loading ? '検索中...' : '検索'}
           </button>
+        </div>
+        <div className="mt-4 text-xs text-gray-500">
+          <p className="mb-1">※「6A00」のようにICD11コード４桁までの対応です。小数点以下は対応しておりません</p>
+          <p>※ICD11データは令和7年6月11日厚労省社会保障審議会統計分科会「疾病及び関連保険問題の国際統計分類」第11回改訂分類（ICD-11）の「疾病、傷害および死因の統計分類」への適用について（報告）」の通知文を参照した。対応するICD10についてはGemini2.5 proを用いて作成したのちに管理人が目視で確認した。Gemini CLIで作成し、Antigravityで編集</p>
         </div>
         {error && <p className="text-red-600 text-center mt-2">エラー: {error}</p>}
       </div>
