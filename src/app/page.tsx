@@ -70,10 +70,11 @@ export default function Home() {
           </button>
         </div>
         <div className="mt-4 text-xs text-gray-500">
-          <p className="mb-1">※「6A00」のようにICD11コード４桁までの対応です。小数点以下は対応しておりません。</p>
-          <p className="mb-1">※ICD11データは令和7年6月11日厚労省社会保障審議会統計分科会「疾病及び関連保険問題の国際統計分類」第11回改訂分類（ICD-11）の「疾病、傷害および死因の統計分類」への適用について（報告）」の通知文を参照。</p>
-          <p className="mb-1">※対応するICD10は上記資料をもとにGemini2.5 proを用いて作成したのち管理人が目視で確認。</p>
+          <p className="mb-1">※ICD11コード４桁まで（例. 6A4、6B20等。小数点以下は非対応）、かつ実臨床で使用が想定される200種類のみ対応</p>
+          <p className="mb-1">※ICD11データは令和7年6月11日厚労省社会保障審議会統計分科会「疾病及び関連保険問題の国際統計分類」第11回改訂分類（ICD-11）の「疾病、傷害および死因の統計分類」への適用について（報告）」の通知文を参照</p>
+          <p className="mb-1">※対応するICD10は上記資料をもとにGemini2.5 proを用いて作成したのち管理人が『公益社団法人 日本精神神経学会ホームページの連載ICD-11「精神，行動，神経発達の疾患」分類と病名の解説シリーズ https://www.jspn.or.jp/modules/advocacy/index.php?content_id=90 』を参考にファクトチェックを実施</p>
           <p>※Gemini CLIで作成、Antigravityで編集</p>
+          <p className="mt-2 text-[10px]">Gemini, Antigravity, and all related logos are trademarks of Google LLC.</p>
         </div>
         {error && <p className="text-red-600 text-center mt-2">エラー: {error}</p>}
       </div>
