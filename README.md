@@ -39,11 +39,11 @@
 プロジェクトがGit管理下に置かれたため、今後の更新は以下の手順で行います。
 
 1.  **`icd_data.xlsx` の修正**:
-    -   `C:\Users\cck59\psychiatry-handmade-accessory\icd_data.xlsx` をExcelなどの表計算ソフトで開きます。
+    -   プロジェクトルートにある `icd_data.xlsx` をExcelなどの表計算ソフトで開きます。
     -   必要なデータを修正・追加・削除し、ファイルを上書き保存します。
 
 2.  **データファイルの変換**:
-    -   PowerShellまたはターミナルで `C:\Users\cck59\psychiatry-handmade-accessory` ディレクトリに移動します。
+    -   PowerShellまたはターミナルでプロジェクトのルートディレクトリに移動します。
     -   以下のコマンドを順番に実行し、ExcelファイルからWebサイト用のJSONファイルを生成します。
         ```bash
         # Excel(.xlsx) から 中間ファイル(.csv)へ変換
