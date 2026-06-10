@@ -13,23 +13,22 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const query = searchParams.get('query') || '';
 
-  console.log(`[API] Received query: ${query}`);
-
   if (!query) {
+    return NextResponse.json({ results: [] });
+  }
+
+  // 入力長の上限。正当な検索（ICDコード・分類名）は数十字以内のため、
+  // 過大入力を空結果で弾く衛生措置（表示は壊さない）。
+  if (query.length > 200) {
     return NextResponse.json({ results: [] });
   }
 
   const filePath = path.join(process.cwd(), 'public', 'parsed_icd_data.json');
   let data = [];
 
-  console.log(`[API] Attempting to read file from: ${filePath}`);
-
   try {
     const fileContents = fs.readFileSync(filePath, 'utf8');
-    console.log(`[API] fileContents length: ${fileContents.length}`); // デバッグログ
-    console.log(`[API] fileContents starts with: ${fileContents.substring(0, 50)}`); // デバッグログ
     data = JSON.parse(fileContents);
-    console.log(`[API] Successfully loaded ${data.length} items from JSON.`);
   } catch (error) {
     console.error('[API] Failed to read or parse ICD data:', error);
     return NextResponse.json({ error: 'Failed to load data' }, { status: 500 });
@@ -37,7 +36,6 @@ export async function GET(request: Request) {
 
   // 検索クエリを半角に変換し、小文字にする
   const processedQuery = toHalfWidth(query).toLowerCase();
-  console.log(`[API] Processed query: ${processedQuery}`);
 
   interface ICDItem {
     ICD10_Code: string | number;
@@ -61,6 +59,5 @@ export async function GET(request: Request) {
     );
   });
 
-  console.log(`[API] Found ${filteredResults.length} results.`);
   return NextResponse.json({ results: filteredResults });
 }
